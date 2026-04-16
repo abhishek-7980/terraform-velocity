@@ -5,4 +5,13 @@ resource "local_file" "velocity" {
 	 content = "hello velocity" 
 
 
+} 
+
+resource "local_file" "test"{
+   
+    filename ="/mnt/test.html"
+    content =" hello test"
+
 }
+
+
